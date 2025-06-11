@@ -8,7 +8,9 @@ const BookCard = ({ book, id }) => {
       <img src={book.imageLinks?.thumbnail || ''} alt={book.title} />
       <h3>{book.title}</h3>
       <p className="authors">{book.authors?.join(', ')}</p>
-      <Link to={`/book/${id}`}>View Details</Link>
+      <Link to={`/book/${id}`} className="details-button">View Details</Link>
+
+
     </div>
   );
 };

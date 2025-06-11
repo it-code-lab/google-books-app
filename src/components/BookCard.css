@@ -30,10 +30,32 @@
   margin-bottom: 8px;
 }
 
+/* REMOVE or COMMENT this to avoid affecting all <a> tags */
 .book-card a {
-  display: inline-block;
+  /* display: inline-block;
   margin-top: 8px;
   font-size: 14px;
   color: #0077cc;
+  font-weight: 500; */
+}
+
+/* ✅ Add this instead */
+.details-button {
+  padding: 8px 14px;
+  background-color: #0077cc;
+  color: white !important;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
   font-weight: 500;
+  cursor: pointer;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.details-button:hover {
+  background-color: #005fa3;
+  text-decoration: none;
 }

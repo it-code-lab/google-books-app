@@ -9,8 +9,10 @@ const App = () => {
   return (
     <Router>
       <nav>
-        <Link to="/">Home</Link> | <Link to="/favorites">Favorites</Link>
+        <Link to="/" className="nav-button">Home</Link>
+        <Link to="/favorites" className="nav-button">Favorites</Link>
       </nav>
+
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/favorites" element={<FavoritesPage />} />
