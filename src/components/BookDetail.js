@@ -26,7 +26,7 @@ const BookDetail = () => {
             <h2>{book.volumeInfo.title}</h2>
             <img src={book.volumeInfo.imageLinks?.thumbnail} alt={book.volumeInfo.title} />
             <p>{book.volumeInfo.description}</p>
-            <button onClick={handleAddToFavorites}>Add to Favorites</button>
+            <button className='favBtn' onClick={handleAddToFavorites}>Add to Favorites</button>
         </main>
     );
 
