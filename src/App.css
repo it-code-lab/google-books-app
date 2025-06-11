@@ -44,6 +44,9 @@ nav {
   text-decoration: none;
   transition: background-color 0.3s ease;
 }
+.bookInfo {
+  height: 300px;
+}
 .nav-button:hover {
   background-color: #005fa3;
 }
@@ -125,7 +128,7 @@ button[type="submit"]:hover {
 
 .book-card .details-button {
   padding: 8px 14px;
-  background-color: #0077cc;
+  background-color: cadetblue;
   color: white !important;
   border: none;
   border-radius: 4px;
